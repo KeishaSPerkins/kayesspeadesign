@@ -14,69 +14,79 @@
   
       <style>
            body {
-       background: #eee;
-       background: url("https://www.toptal.com/designers/subtlepatterns/patterns/topography.png");
-     }
+            background: #eee;
+            background: url("https://www.toptal.com/designers/subtlepatterns/patterns/topography.png");
+          }
 
-     .message-wrapper {
-       position: absolute;
-       top: 50%;
-       left: 50%;
-       -webkit-transform: translate(-50%, -50%);
-               transform: translate(-50%, -50%);
-       display: -webkit-box;
-       display: -ms-flexbox;
-       display: flex;
-       -ms-flex-flow: column;
-           flex-flow: column;
-       -webkit-box-align: center;
-           -ms-flex-align: center;
-               align-items: center;
-       width: 95%;
-     }
+          a {
+            text-decoration: none;
+            color: #f39;
+          }
 
-     .logo {
-       width: 100%;
-       height: auto;
-     }
+          a:hover {
+            color: #ff0080;
+            text-decoration: underline;
+          }
 
-     .block {
-       display: none;
-     }
+          .message-wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-flow: column;
+            flex-flow: column;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 95%;
+          }
 
-     .message {
-       text-align: center;
-     }
+          .logo {
+            width: 100%;
+            height: auto;
+          }
 
-     footer {
-       position: absolute;
-       bottom: 0;
-       width: 100%;
-       display: -webkit-box;
-       display: -ms-flexbox;
-       display: flex;
-       -webkit-box-pack: center;
-           -ms-flex-pack: center;
-               justify-content: center;
-       background: #333;
-       background: rgba(0, 0, 0, 0.7);
-       color: white;
-       text-align: center;
-     }
+          .block {
+            display: none;
+          }
 
-     @media (max-width: 600px) {
-       body {
-         font-size: 0.9rem;
-       }
+          .message {
+            text-align: center;
+          }
 
-       .long {
-         display: none;
-       }
+          footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            background: #333;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+          }
 
-       .block {
-         display: initial;
-       }
-     }
+          @media (max-width: 600px) {
+            body {
+              font-size: 0.9rem;
+            }
+
+            .long {
+              display: none;
+            }
+
+            .block {
+              display: initial;
+            }
+          }
 
          </style>
 
