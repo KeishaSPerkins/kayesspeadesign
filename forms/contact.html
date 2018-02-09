@@ -18,21 +18,7 @@
       html {
   font-family: "Montserrat", sans-serif;
   color: #111;
-  --cyan-normal: #39f;
-  --cyan-light: #80bfff;
-  --cyan-lighter: #b3d9ff;
-  --cyan-dark: #004080;
-  --cyan-darker: #001a33;
-  --pink-lighter: #ffb3d9;
-  --pink-light: #ff80bf;
-  --pink-normal: #f39;
-  --pink-dark: #b30059;
-  --pink-darker: #603;
-  --green-lighter: #d9efc3;
-  --green-light: #a6d973;
-  --green-normal: #8c4;
-  --green-dark: #4d7821;
-  --green-darker: #1a280b;
+
 }
 
 body {
@@ -88,7 +74,7 @@ input, textarea {
 }
 input:focus, textarea:focus {
   outline: none;
-  border: 1px solid var(--pink-normal);
+  border: 1px solid #f39;
 }
 
 .name {
@@ -120,7 +106,7 @@ em {
 }
 
 .buttons button {
-  background: var(--cyan-normal);
+  background: #39f;
   padding: 10px;
   border-radius: 5px;
   color: white;
@@ -134,13 +120,13 @@ em {
 }
 .buttons button.ghost {
   background: rgba(254, 254, 254, 0.5);
-  border-color: var(--cyan-normal);
-  color: var(--cyan-normal);
+  border-color: #39f;
+  color: #39f;
 }
 
 .ghost a {
-  color: var(--cyan-normal);
-  color: var(--cyan-normal);
+  color: #39f;
+  color: #39f;
 }
 .ghost a:hover, .ghost a:visited, .ghost a:focus {
   text-decoration: none;
@@ -150,7 +136,7 @@ em {
   color: white;
 }
 .buttons button:hover {
-  background: var(--pink-dark);
+  background: #b30059;
   color: white;
   border-color: transparent;
 }
@@ -204,7 +190,7 @@ footer {
         <label>Optional Additional Message</label>
         <textarea name="MultiLine" maxlength="65535"></textarea>
         <div class="buttons"><button type="submit">Submit</button>
-        <button class="ghost"><a href="index.html">Go back the digital forms page</a></button></div>
+        <!-- <button class="ghost"><a href="index.html">Go back the digital forms page</a></button></div> -->
 
 </form>
 
